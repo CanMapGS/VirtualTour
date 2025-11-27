@@ -1,7 +1,7 @@
 @charset "utf-8";
 /*
 
-TemplateMo 592 glossy touch
+TemplateMo 592 Virtual Tour
 
 https://templatemo.com/tm-592-glossy-touch
 
@@ -272,6 +272,12 @@ button[type="submit"] {
     padding: 40px 30px;
     text-align: center;
     color: white;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.feature-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
 }
 .feature-icon {
     width: 60px;
@@ -644,8 +650,8 @@ button[type="submit"] {
 .copyright {
     font-size: 14px;
     color: rgba(255, 255, 255, 0.6);
-    border-top: 1px solid rgba(255, 255, 255, 0.1);
-    padding-top: 20px;
+    /* border-top: 1px solid rgba(255, 255, 255, 0.1);
+    padding-top: 20px; */
 }
 .copyright a {
 	color: rgba(255, 255, 255, 0.6);
